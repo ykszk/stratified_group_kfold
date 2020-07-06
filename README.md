@@ -3,6 +3,8 @@ Split dataset into k folds with balanced label distribution (stratified) and non
 
 StratifiedGroupKFold class is compatible with [sklearn.model_selection.KFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html)
 
+Reference : [Stratified Group k-Fold Cross-Validation | Kaggle](https://www.kaggle.com/jakubwasikowski/stratified-group-k-fold-cross-validation)
+
 ## Install
 ``` sh
 pip install git+https://github.com/yk-szk/stratified_group_kfold
