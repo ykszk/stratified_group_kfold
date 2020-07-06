@@ -1,4 +1,6 @@
 # Stratified Group K-fold
+[![codecov](https://codecov.io/gh/yk-szk/stratified_group_kfold/branch/master/graph/badge.svg)](https://codecov.io/gh/yk-szk/stratified_group_kfold)
+
 Split dataset into k folds with balanced label distribution (stratified) and non-overlapping groups.
 
 StratifiedGroupKFold class is compatible with [sklearn.model_selection.KFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html)
