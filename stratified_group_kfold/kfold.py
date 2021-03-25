@@ -25,7 +25,10 @@ class StratifiedGroupKFold:
         ) >= self.n_splits, 'The number of groups needs to be larger than n_splits'
 
         def encode(v):
-            s = set(v)
+            v = list(v)
+            s = [
+                e for i, e in enumerate(v) if v.index(e) == i
+            ]  # extract unique values while maintaining the original order.
             d = {l: i for i, l in enumerate(s)}
             return [d[e] for e in v]
 
